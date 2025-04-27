@@ -1,0 +1,311 @@
+{
+  "restaurants": {
+    "r1": {
+      "id": "r1",
+      "name": "Café 123",
+      "imageURL": "https://example.com/images/cafe123.jpg",
+      "cuisineType": "Italian",
+      "description": "Fresh pasta, paninis and espresso.",
+      "location": "North Campus",
+      "hoursOfOperation": "8 AM–8 PM"
+    },
+    "r2": {
+      "id": "r2",
+      "name": "The Grille",
+      "imageURL": "https://example.com/images/thegrille.jpg",
+      "cuisineType": "American",
+      "description": "Burgers, fries and shakes.",
+      "location": "East Quad",
+      "hoursOfOperation": "10 AM–10 PM"
+    },
+    "r3": {
+      "id": "r3",
+      "name": "Salad Shack",
+      "imageURL": "https://example.com/images/saladshack.jpg",
+      "cuisineType": "Healthy",
+      "description": "Custom salads and bowls.",
+      "location": "Student Center",
+      "hoursOfOperation": "9 AM–7 PM"
+    },
+    "r4": {
+      "id": "r4",
+      "name": "Coffee Corner",
+      "imageURL": "https://example.com/images/coffeecorner.jpg",
+      "cuisineType": "Cafe",
+      "description": "Artisan coffee and pastries.",
+      "location": "Library Plaza",
+      "hoursOfOperation": "7 AM–6 PM"
+    },
+    "r5": {
+      "id": "r5",
+      "name": "Sweet Treats",
+      "imageURL": "https://example.com/images/sweettreats.jpg",
+      "cuisineType": "Dessert",
+      "description": "Ice cream, cookies and more.",
+      "location": "West Campus",
+      "hoursOfOperation": "11 AM–9 PM"
+    }
+  },
+  "menuItems": {
+    "r1": {
+      "m1": {
+        "id": "m1",
+        "restaurantId": "r1",
+        "name": "Margherita Pizza",
+        "description": "Tomato, mozzarella, basil.",
+        "imageURL": "https://example.com/images/pizza1.jpg",
+        "price": 8.99,
+        "category": "Pizza",
+        "isAvailable": true
+      },
+      "m2": {
+        "id": "m2",
+        "restaurantId": "r1",
+        "name": "Pesto Panini",
+        "description": "Chicken, pesto, provolone.",
+        "imageURL": "https://example.com/images/panini1.jpg",
+        "price": 7.49,
+        "category": "Sandwich",
+        "isAvailable": true
+      },
+      "m3": {
+        "id": "m3",
+        "restaurantId": "r1",
+        "name": "Spaghetti Bolognese",
+        "description": "Rich meat sauce.",
+        "imageURL": "https://example.com/images/spaghetti.jpg",
+        "price": 10.99,
+        "category": "Pasta",
+        "isAvailable": true
+      },
+      "m4": {
+        "id": "m4",
+        "restaurantId": "r1",
+        "name": "Caesar Salad",
+        "description": "Romaine, croutons, caesar dressing.",
+        "imageURL": "https://example.com/images/salad1.jpg",
+        "price": 6.99,
+        "category": "Salad",
+        "isAvailable": true
+      },
+      "m5": {
+        "id": "m5",
+        "restaurantId": "r1",
+        "name": "Tiramisu",
+        "description": "Classic Italian dessert.",
+        "imageURL": "https://example.com/images/tiramisu.jpg",
+        "price": 5.99,
+        "category": "Dessert",
+        "isAvailable": true
+      }
+    },
+    "r2": {
+      "m1": {
+        "id": "m1",
+        "restaurantId": "r2",
+        "name": "Cheeseburger",
+        "description": "Beef patty, cheddar, lettuce, tomato.",
+        "imageURL": "https://example.com/images/burger.jpg",
+        "price": 9.49,
+        "category": "Burger",
+        "isAvailable": true
+      },
+      "m2": {
+        "id": "m2",
+        "restaurantId": "r2",
+        "name": "Fries",
+        "description": "Crispy golden fries.",
+        "imageURL": "https://example.com/images/fries.jpg",
+        "price": 3.49,
+        "category": "Sides",
+        "isAvailable": true
+      },
+      "m3": {
+        "id": "m3",
+        "restaurantId": "r2",
+        "name": "Milkshake",
+        "description": "Vanilla, chocolate, or strawberry.",
+        "imageURL": "https://example.com/images/milkshake.jpg",
+        "price": 4.99,
+        "category": "Beverage",
+        "isAvailable": true
+      },
+      "m4": {
+        "id": "m4",
+        "restaurantId": "r2",
+        "name": "Onion Rings",
+        "description": "Beer‑battered onion rings.",
+        "imageURL": "https://example.com/images/onionrings.jpg",
+        "price": 4.49,
+        "category": "Sides",
+        "isAvailable": true
+      },
+      "m5": {
+        "id": "m5",
+        "restaurantId": "r2",
+        "name": "Chicken Sandwich",
+        "description": "Grilled chicken, lettuce, mayo.",
+        "imageURL": "https://example.com/images/chickensandwich.jpg",
+        "price": 8.99,
+        "category": "Sandwich",
+        "isAvailable": true
+      }
+    },
+    "r3": {
+      "m1": {
+        "id": "m1",
+        "restaurantId": "r3",
+        "name": "Greek Salad",
+        "description": "Feta, olives, cucumber, tomato.",
+        "imageURL": "https://example.com/images/greeksalad.jpg",
+        "price": 7.99,
+        "category": "Salad",
+        "isAvailable": true
+      },
+      "m2": {
+        "id": "m2",
+        "restaurantId": "r3",
+        "name": "Quinoa Bowl",
+        "description": "Quinoa, veggies, tahini dressing.",
+        "imageURL": "https://example.com/images/quinoabowl.jpg",
+        "price": 8.99,
+        "category": "Bowl",
+        "isAvailable": true
+      },
+      "m3": {
+        "id": "m3",
+        "restaurantId": "r3",
+        "name": "Avocado Toast",
+        "description": "Sourdough, smashed avocado, chili flakes.",
+        "imageURL": "https://example.com/images/avocadotoast.jpg",
+        "price": 6.49,
+        "category": "Toast",
+        "isAvailable": true
+      },
+      "m4": {
+        "id": "m4",
+        "restaurantId": "r3",
+        "name": "Smoothie",
+        "description": "Berry blend or tropical mix.",
+        "imageURL": "https://example.com/images/smoothie.jpg",
+        "price": 5.99,
+        "category": "Beverage",
+        "isAvailable": true
+      },
+      "m5": {
+        "id": "m5",
+        "restaurantId": "r3",
+        "name": "Fruit Cup",
+        "description": "Seasonal fruits.",
+        "imageURL": "https://example.com/images/fruitcup.jpg",
+        "price": 4.99,
+        "category": "Snack",
+        "isAvailable": true
+      }
+    },
+    "r4": {
+      "m1": {
+        "id": "m1",
+        "restaurantId": "r4",
+        "name": "Latte",
+        "description": "Espresso with steamed milk.",
+        "imageURL": "https://example.com/images/latte.jpg",
+        "price": 4.49,
+        "category": "Coffee",
+        "isAvailable": true
+      },
+      "m2": {
+        "id": "m2",
+        "restaurantId": "r4",
+        "name": "Cappuccino",
+        "description": "Espresso, steamed milk, foam.",
+        "imageURL": "https://example.com/images/cappuccino.jpg",
+        "price": 4.99,
+        "category": "Coffee",
+        "isAvailable": true
+      },
+      "m3": {
+        "id": "m3",
+        "restaurantId": "r4",
+        "name": "Croissant",
+        "description": "Buttery flaky pastry.",
+        "imageURL": "https://example.com/images/croissant.jpg",
+        "price": 3.49,
+        "category": "Pastry",
+        "isAvailable": true
+      },
+      "m4": {
+        "id": "m4",
+        "restaurantId": "r4",
+        "name": "Blueberry Muffin",
+        "description": "Berry packed muffin.",
+        "imageURL": "https://example.com/images/muffin.jpg",
+        "price": 3.99,
+        "category": "Pastry",
+        "isAvailable": true
+      },
+      "m5": {
+        "id": "m5",
+        "restaurantId": "r4",
+        "name": "Bagel with Cream Cheese",
+        "description": "Toasted bagel, cream cheese.",
+        "imageURL": "https://example.com/images/bagel.jpg",
+        "price": 3.99,
+        "category": "Bakery",
+        "isAvailable": true
+      }
+    },
+    "r5": {
+      "m1": {
+        "id": "m1",
+        "restaurantId": "r5",
+        "name": "Vanilla Ice Cream",
+        "description": "Classic vanilla scoop.",
+        "imageURL": "https://example.com/images/icecream.jpg",
+        "price": 2.99,
+        "category": "Dessert",
+        "isAvailable": true
+      },
+      "m2": {
+        "id": "m2",
+        "restaurantId": "r5",
+        "name": "Chocolate Brownie",
+        "description": "Fudgy chocolate brownie.",
+        "imageURL": "https://example.com/images/brownie.jpg",
+        "price": 3.49,
+        "category": "Dessert",
+        "isAvailable": true
+      },
+      "m3": {
+        "id": "m3",
+        "restaurantId": "r5",
+        "name": "Cheesecake",
+        "description": "Creamy cheesecake slice.",
+        "imageURL": "https://example.com/images/cheesecake.jpg",
+        "price": 4.99,
+        "category": "Dessert",
+        "isAvailable": true
+      },
+      "m4": {
+        "id": "m4",
+        "restaurantId": "r5",
+        "name": "Chocolate Chip Cookie",
+        "description": "Warm cookie with chips.",
+        "imageURL": "https://example.com/images/cookie.jpg",
+        "price": 1.99,
+        "category": "Dessert",
+        "isAvailable": true
+      },
+      "m5": {
+        "id": "m5",
+        "restaurantId": "r5",
+        "name": "Fruit Parfait",
+        "description": "Yogurt, granola, fruit.",
+        "imageURL": "https://example.com/images/parfait.jpg",
+        "price": 4.49,
+        "category": "Dessert",
+        "isAvailable": true
+      }
+    }
+  }
+}
